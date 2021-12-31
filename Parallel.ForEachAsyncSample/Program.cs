@@ -4,9 +4,6 @@ using System.Net.Http.Headers;
 using System.Net.Http.Json;
 
 
-
-
-
 var userHandlers = new[] { "users/x", "users/y", "users/z", "users/m" };
 
 using HttpClient client = new()
