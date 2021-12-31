@@ -11,9 +11,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlobalUsingsSample", "Globa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileScopedNamespaceSample", "FileScopedNamespaceSample\FileScopedNamespaceSample.csproj", "{22F8F4FC-E84A-49B9-8181-DFAA52C3FC01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeOnlyAndDateOnlySample", "TimeOnlyAndDateOnlySample\TimeOnlyAndDateOnlySample.csproj", "{EB1C95FD-5D0E-4430-9245-43188A3C48E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeOnlyAndDateOnlySample", "TimeOnlyAndDateOnlySample\TimeOnlyAndDateOnlySample.csproj", "{EB1C95FD-5D0E-4430-9245-43188A3C48E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parallel.ForEachAsyncSample", "Parallel.ForEachAsyncSample\Parallel.ForEachAsyncSample.csproj", "{D115C9CB-C138-48E3-95F6-85AC06E1C224}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parallel.ForEachAsyncSample", "Parallel.ForEachAsyncSample\Parallel.ForEachAsyncSample.csproj", "{D115C9CB-C138-48E3-95F6-85AC06E1C224}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EDE20B4B-5A5E-457A-A9A9-0EFD4A82E41A}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Programming\C#10-WorkShop\C# 10.pptx = ..\..\..\Programming\C#10-WorkShop\C# 10.pptx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
