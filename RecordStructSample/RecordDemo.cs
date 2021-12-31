@@ -31,5 +31,20 @@
             p2.FirstName = "John"; p2.LastName = "George";
             Console.WriteLine(p2.FirstName + " " + p2.LastName);
         }
+
+        // the following code can be written in the following way using record:
+        public class PersonSimple
+        {
+            public string FirstName { get; init; }
+            public string LastName { get; init; }
+
+            public PersonSimple(string firstName, string lastName)
+            {
+                FirstName = firstName;
+                LastName = lastName;
+            }
+        }
+
+        public record PersonWithRecord(string FirstName, string LastName);
     }
 }
