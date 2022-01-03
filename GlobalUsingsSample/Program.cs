@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using GlobalUsingsSample.Models;
+using System;
+
+var programmer = new Programmer
+{
+    Name = "Omid"
+};
+
+Console.WriteLine($"Hello, World! I'm {programmer.Name}");
